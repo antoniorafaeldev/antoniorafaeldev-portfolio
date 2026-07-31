@@ -1,10 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfólio | Antônio Rafael</title>
+    <link rel="stylesheet" href="./src/css/style.css">
 </head>
 
 <body>
@@ -20,19 +21,32 @@
     </header>
     <main class="main">
         <section class="introduction">
-            <h1 class="title">Antônio Rafael. <strong>Desenvolvedor Front-end</strong></h1>
-            <p class="subtitle">Construindo interfaces de alta performance com foco em arquitetura escalável e sistemas
-                de design precisos.</p>
-            <div class="intro-link">
-                <a href="#projects" class="link primary">Ver Projetos</a>
-                <a href="#contact" class="link secondary">Entrar em contato</a>
+            <div class="introduction-container">
+                <div class="introduction-content">
+                    <h1 class="title">Antônio Rafael. <strong>Desenvolvedor Front-end</strong></h1>
+                    <p class="subtitle">Construindo interfaces de alta performance com foco em arquitetura escalável e
+                        sistemas
+                        de design precisos.</p>
+                </div>
+
+                <div class="intro-link">
+                    <a href="#projects" class="link primary">Ver Projetos</a>
+                    <a href="#contact" class="link secondary">Entrar em contato</a>
+
+                </div>
             </div>
+
         </section>
         <section class="about-me">
-            <h2 class="about-me-title">Sobre Mim</h2>
-            <p class="about-me-subtitle">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi officia rerum
-                quae. Dolore ullam quasi ducimus, rerum corrupti sed reprehenderit, optio a dicta est, aliquam facilis
-                quidem illum assumenda sapiente.</p>
+            <div class="about-me-container">
+                <h2 class="about-me-title">Sobre Mim</h2>
+                <p class="about-me-subtitle">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi officia
+                    rerum
+                    quae. Dolore ullam quasi ducimus, rerum corrupti sed reprehenderit, optio a dicta est, aliquam
+                    facilis
+                    quidem illum assumenda sapiente.</p>
+            </div>
+
         </section>
         <section class="stacks">
             <div class="stacks-title-container">
@@ -70,19 +84,37 @@
             <h2 class="projects-title">Projetos em <strong>destaque</strong></h2>
             <div class="featured-projects">
                 <div class="project">
-                    <img src="" alt="">
-                    <h3>Projeto 1</h3>
-                    <p>descrição</p>
+                    <img src="./src/assets/images/projects-images/planejAI.png" alt="Imagem do projeto PlanejAI">
+                    <h3>PlanejAI</h3>
+                    <p>Educador financeiro inteligente onde o usuário preenche um formulário com sua renda, gastos e
+                        meta financeira, e recebe um diagnóstico personalizado da viabilidade da meta e sugestões de
+                        como chegar lá</p>
+                    <div class="tags">
+                        <div class="tag">React</div>
+                        <div class="tag">Tailwind</div>
+                        <div class="tag">TypeScript</div>
+                    </div>
                 </div>
                 <div class="project">
-                    <img src="" alt="">
-                    <h3>Projeto 2</h3>
+                    <img src="./src/assets/images/projects-images/planets-fact-site.png"
+                        alt="Imagem do projeto Planets Fact Site">
+                    <h3>Planets Fact Site</h3>
                     <p>descrição</p>
+                    <div class="tags">
+                        <div class="tag">Frontend Mentor</div>
+                        <div class="tag">React</div>
+                        <div class="tag">TypeScript</div>
+                    </div>
                 </div>
                 <div class="project">
-                    <img src="" alt="">
-                    <h3>Projeto 3</h3>
+                    <img src="./src/assets/images/projects-images/todo-app.png" alt="Imagem do projeto Todo App">
+                    <h3>Todo App</h3>
                     <p>descrição</p>
+                    <div class="tags">
+                        <div class="tag">Frontend Mentor</div>
+                        <div class="tag">HTML e CSS</div>
+                        <div class="tag">JavaScript</div>
+                    </div>
                 </div>
             </div>
             <a href="#" class="link secondary">Ver todos os projetos</a>
@@ -95,11 +127,13 @@
                     Email
                 </a>
                 <a href="#">
-                    <img width="30px" height="30px" src="./src/assets/images/logos/linkedin-original.svg" alt="Linkedin Logo">
+                    <img width="30px" height="30px" src="./src/assets/images/logos/linkedin-original.svg"
+                        alt="Linkedin Logo">
                     LinkedIn
                 </a>
                 <a href="#">
-                    <img width="30px" height="30px" src="./src/assets/images/logos/github-original.svg" alt="GitHub Logo">
+                    <img width="30px" height="30px" src="./src/assets/images/logos/github-original.svg"
+                        alt="GitHub Logo">
                     GitHub
                 </a>
             </div>
