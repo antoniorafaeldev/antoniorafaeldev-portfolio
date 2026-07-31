@@ -104,3 +104,23 @@ a {
   border: 1px solid var(--neutral-800);
 }
 
+.about-me {
+  padding: 6rem 4rem;
+  display: flex;
+
+}
+
+.about-me-container {
+  width: min(90%, 33.75rem);
+  margin: auto;
+}
+
+.about-me-title {
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.about-me-subtitle {
+  font-size: 1.125rem;
+}
