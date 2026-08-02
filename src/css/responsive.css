@@ -1,0 +1,38 @@
+@media (max-width: 768px) {
+  .nav-links {
+    position: absolute;
+    top: 8vh;
+    right: 0;
+    width: 100vw;
+    min-height: 10vh;
+    background-color: #0a0a0a;
+    border: 1px solid var(--border-color);
+
+    align-items: center;
+    z-index: 1000;
+
+    transform: translateX(100%);
+  }
+
+
+  .nav-links li {
+    width: 100%;
+    text-align: center;
+  }
+
+  .nav-links li:last-child {
+    border-bottom: none;
+  }
+
+  .hamburguer-menu {
+    display: block;
+  }
+
+  .active {
+    transform: translateX(0%);
+
+  }
+
+  
+}
+    
