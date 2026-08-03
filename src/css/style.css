@@ -22,7 +22,7 @@ body {
   color: white;
   font-family: Geist;
   background-color: var(--background-color);
-
+  overflow-x: hidden;
 }
 
 .header {
@@ -175,6 +175,8 @@ a {
   backdrop-filter: blur(12px);
   transition: all 0.3s ease-in-out;
   border: 1px solid var(--border-color);
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .stack {

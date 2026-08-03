@@ -3,7 +3,7 @@
     position: absolute;
     top: 8vh;
     right: 0;
-    width: 100vw;
+    width: 100%;
     min-height: 10vh;
     background-color: #0a0a0a;
     border: 1px solid var(--border-color);
@@ -13,7 +13,6 @@
 
     transform: translateX(100%);
   }
-
 
   .nav-links li {
     width: 100%;
@@ -30,9 +29,86 @@
 
   .active {
     transform: translateX(0%);
+  }
+
+  .title {
+    font-size: 2.5rem;
+    text-align: center;
+    text-wrap: wrap;
+  }
+
+  .introduction {
+    padding: 8rem 0;
+    padding-bottom: 24rem;
+  }
+
+  .introduction-container {
+    width: min(90%, 500px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .subtitle {
+    text-align: justify;
+  }
+
+  .intro-link {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .link {
+    width: 100%;
+    text-align: center;
+  }
+
+  .about-me {
+    padding: 6rem 0;
+  }
+
+  .stacks-container {
+    width: min(70%, 500px);
+  }
+
+  .stack {
+    padding: 1rem;
+  }
+
+  .featured-projects {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .project-links {
+    text-align: center;
+  }
+
+  .all-projects {
+    width: min(90%, 500px);
+  }
+
+  .contact {
+    flex-direction: column;
+    padding: 12rem 1rem
+  }
+
+  .networks {
+    width: 100%;
 
   }
 
-  
+  .contact-form {
+    width: min(90%, 500px);
+  }
+
+  .form-header-info {
+    flex-direction: column;
+  }
+
+  .form-header-info div input, .message-textarea {
+    width: 100%;
+  }
+
 }
-    
