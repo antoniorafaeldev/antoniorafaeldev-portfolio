@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Geist+Mono:ital,wght@0,100..900;1,100..900&family=Geist:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --gradient: radial-gradient(circle at 50% -20%, #1e3a8a 0%, #0a0a0a 70%);
+  --primary-color: #2563eb;
+  --accent-color: #0891b2;
+  --background-color: #0a0a0a;
+  --border-color: oklch(31.918% 0.00283 16.601);
+  --neutral-200: oklch(0.922 0 0);
+  --neutral-500: oklch(0.632 0 0);
+  --neutral-800: oklch(0.269 0 0);
+  --neutral-900: oklch(0.205 0 0);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  color: white;
+  font-family: Geist;
+  background-color: var(--background-color);
+  overflow-x: hidden;
+}
+
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background-color: #0a0a0a;
+  height: 8vh;
+
+  padding: 1.5rem;
+  border-bottom: 2px solid var(--neutral-800);
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+.hamburguer-menu {
+  display: none;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  border-radius: 0.5rem;
+  padding: 0.625rem 1.5rem;
+}
+
+.nav-link {
+  padding: 0;
+}
