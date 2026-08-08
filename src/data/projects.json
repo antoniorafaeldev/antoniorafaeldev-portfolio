@@ -3,7 +3,7 @@
     "name": "PlanejAI",
     "tags": ["React", "Tailwind", "TypeScript"],
     "description": "Educador financeiro inteligente onde o usuário preenche um formulário com sua renda, gastos e meta financeira, e recebe um diagnóstico personalizado da viabilidade da meta e sugestões de como chegar lá",
-    "imgUrl": "../assets/images/projects-images/planejAI.png",
+    "imgUrl": "../src/assets/images/projects-images/planejAI.png",
     "siteUrl": "https://github.com/antoniorafaeldev/planejAI",
     "repositoryUrl": "https://github.com/antoniorafaeldev/planejAI"
   },
@@ -11,7 +11,7 @@
     "name": "Planets Fact Site ",
     "tags": ["Frontend Mentor", "React", "TypeScript"],
     "description": "Um site que exibe informações gerais, estrutura e geologia de todos os planetas do sistema solar",
-    "imgUrl": "../assets/images/projects-images/planets-fact-site.png",
+    "imgUrl": "../src/assets/images/projects-images/planets-fact-site.png",
     "siteUrl": "https://planets-fact-site-nine-gilt.vercel.app/",
     "repositoryUrl": "https://github.com/antoniorafaeldev/planets-fact-site"
   },
@@ -19,7 +19,7 @@
     "name": "Todo App",
     "tags": ["Frontend Mentor", "HTML e CSS", "JavaScript"],
     "description": "Gerenciador de tarefas com salvamento local, onde é possível listar tarefas pendentes, concluídas e excluir tarefas",
-    "imgUrl": "../assets/images/projects-images/todo-app.png",
+    "imgUrl": "../src/assets/images/projects-images/todo-app.png",
     "siteUrl": "https://antoniorafaeldev.github.io/todo-app",
     "repositoryUrl": "https://github.com/antoniorafaeldev/todo-app"
   },
@@ -27,7 +27,7 @@
     "name": "Clipboard Landing Page",
     "tags": ["Frontend Mentor", "React", "CSS"],
     "description": "Uma landing page para um app fictício chamado clipboard",
-    "imgUrl": "../assets/images/projects-images/clipboard-landing-page.jpg",
+    "imgUrl": "../src/assets/images/projects-images/clipboard-landing-page.jpg",
     "siteUrl": "https://antoniorafaeldev.github.io/clipboard-landing-page-react",
     "repositoryUrl": "https://github.com/antoniorafaeldev/clipboard-landing-page-react"
   },
@@ -35,7 +35,7 @@
     "name": "BBQ BRO",
     "tags": ["HTML", "CSS"],
     "description": "Landing page de um cardápio para uma hamburgueria fictícia chamada BBQ Bro",
-    "imgUrl": "../assets/images/projects-images/bbq-bro.png",
+    "imgUrl": "../src/assets/images/projects-images/bbq-bro.png",
     "siteUrl": "https://antoniorafaeldev.github.io/bbq-bro",
     "repositoryUrl": "https://github.com/antoniorafaeldev/bbq-bro"
   },
@@ -43,7 +43,7 @@
     "name": "Advice Generator",
     "tags": ["Frontend Mentor", "HTML e CSS", "JavaScript", "API"],
     "description": "Gerador de conselhos aleatórios que vem da API do Advice Slip",
-    "imgUrl": "../assets/images/projects-images/advice-generator.png",
+    "imgUrl": "../src/assets/images/projects-images/advice-generator.png",
     "siteUrl": "https://antoniorafaeldev.github.io/advice-generator",
     "repositoryUrl": "https://github.com/antoniorafaeldev/advice-generator"
   },
@@ -51,7 +51,7 @@
     "name": "FAQ Accordion",
     "tags": ["Frontend Mentor", "HTML e CSS", "JavaScript"],
     "description": "Um arcodeão de perguntas e resposta sobre o Frontend Mentor",
-    "imgUrl": "../assets/images/projects-images/faq-accordion.png",
+    "imgUrl": "../src/assets/images/projects-images/faq-accordion.png",
     "siteUrl": "https://antoniorafaeldev.github.io/faq-accordion",
     "repositoryUrl": "https://github.com/antoniorafaeldev/bbq-bro"
   },
@@ -59,7 +59,7 @@
     "name": "Space Overseer",
     "tags": ["HTML", "CSS", "JavaScript"],
     "description": "Desenvolvido durante a décima edição da Imersão Dev da Alura, o Space Overseer é um base de conheciment sobre o espaço, onde você encontra informações sobres planeta",
-    "imgUrl": "../assets/images/projects-images/space-overseer.png",
+    "imgUrl": "../src/assets/images/projects-images/space-overseer.png",
     "siteUrl": "https://antoniorafaeldev.github.io/projeto-space-overseer",
     "repositoryUrl": "https://github.com/antoniorafaeldev/projeto-space-overseer"
   },
@@ -67,7 +67,7 @@
     "name": "Contact Form",
     "tags": ["Frontend Mentor", "HTML e CSS", "JavaScript"],
     "description": "Um formulário de perguntas",
-    "imgUrl": "../assets/images/projects-images/contact-form.png",
+    "imgUrl": "../src/assets/images/projects-images/contact-form.png",
     "siteUrl": "https://antoniorafaeldev.github.io/contact-form",
     "repositoryUrl": "https://github.com/antoniorafaeldev/contact-form"
   },
@@ -75,7 +75,7 @@
     "name": "Contact Form",
     "tags": ["Frontend Mentor", "HTML e CSS", "JavaScript"],
     "description": "Um formulário de perguntas sobre um pedido, com validação de resposta.",
-    "imgUrl": "../assets/images/projects-images/contact-form.png",
+    "imgUrl": "../src/assets/images/projects-images/contact-form.png",
     "siteUrl": "https://antoniorafaeldev.github.io/contact-form",
     "repositoryUrl": "https://github.com/antoniorafaeldev/contact-form"
   },
@@ -83,7 +83,7 @@
     "name": "Blog Preview Card",
     "tags": ["Frontend Mentor", "HTML", "CSS"],
     "description": "Um componente de pré-visualização de um artigo sobre HTML e CSS",
-    "imgUrl": "../assets/images/projects-images/blog-preview-card.png",
+    "imgUrl": "../src/assets/images/projects-images/blog-preview-card.png",
     "siteUrl": "https://antoniorafaeldev.github.io/blog-preview-card",
     "repositoryUrl": "https://github.com/antoniorafaeldev/blog-preview-card"
   },
@@ -91,7 +91,7 @@
     "name": "QR Code Component",
     "tags": ["Frontend Mentor", "HTML", "CSS"],
     "description": "Um componente de QR code ",
-    "imgUrl": "../assets/images/projects-images/qr-code-component.png",
+    "imgUrl": "../src/assets/images/projects-images/qr-code-component.png",
     "siteUrl": "https://antoniorafaeldev.github.io/projeto-qr-component",
     "repositoryUrl": "https://github.com/antoniorafaeldev/projeto-qr-component"
   }

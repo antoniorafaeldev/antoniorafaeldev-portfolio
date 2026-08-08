@@ -23,7 +23,7 @@ const renderProjects = (projects) => {
     const tags = project.tags;
 
     projectContainer.innerHTML = `
-            <img src="${project.imgSrc}" alt="Imagem do projeto ${project.name}">
+            <img src="${project.imgUrl}" alt="Imagem do projeto ${project.name}">
             <div class="project-content">
                 <h2>${project.name}</h2>
                 <div class="tags">
