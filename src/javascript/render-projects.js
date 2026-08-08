@@ -23,17 +23,19 @@ const renderProjects = (projects) => {
     const tags = project.tags;
 
     projectContainer.innerHTML = `
-            <img src="" alt="Imagem do projeto ${project.name}">
-            <h2>${project.name}</h2>
-            <div class="tags-container">
-                ${tags
-                  .map(
-                    (tag) => `<div class="tag">${tag}</div>
-                    `,
-                  )
-                  .join("")}
+            <img src="${project.imgSrc}" alt="Imagem do projeto ${project.name}">
+            <div class="project-content">
+                <h2>${project.name}</h2>
+                <div class="tags">
+                    ${tags
+                    .map(
+                        (tag) => `<div class="tag">${tag}</div>
+                        `,
+                    )
+                    .join("")}
+                </div>
+                <p>${project.description}</p>
             </div>
-            <p>${project.description}</p>
             <div class="project-links">
                 <a href="${project.siteUrl}" target="_blank">Site</a>
                 <a href="${project.repositoryUrl}" target="_blank">Repositório</a>
