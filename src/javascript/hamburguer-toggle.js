@@ -6,3 +6,4 @@ export function toggleMenu() {
         navbarLinks.classList.toggle("active")
     })
 }
+

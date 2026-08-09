@@ -1,6 +1,6 @@
 const projectsSection = document.getElementById("projects");
 
-const fetchProjects = async () => {
+export const fetchProjects = async () => {
   try {
     const response = await fetch("../src/data/projects.json");
 
@@ -45,4 +45,4 @@ const renderProjects = (projects) => {
   });
 };
 
-fetchProjects();
+
