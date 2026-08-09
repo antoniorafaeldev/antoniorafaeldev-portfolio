@@ -108,7 +108,8 @@
                     </div>
                     <div class="project-links">
                         <a href="https://github.com/antoniorafaeldev/planejAI" target="_blank" class="site">Site</a>
-                        <a href="https://github.com/antoniorafaeldev/planejAI" target="_blank" class="repo">Repositório</a>
+                        <a href="https://github.com/antoniorafaeldev/planejAI" target="_blank"
+                            class="repo">Repositório</a>
                     </div>
 
                 </div>
@@ -129,7 +130,8 @@
                     </div>
                     <div class="project-links">
                         <a href="https://planets-fact-site-nine-gilt.vercel.app/" target="_blank" class="site">Site</a>
-                        <a href="https://github.com/antoniorafaeldev/planets-fact-site" target="_blank" class="repo">Repositório</a>
+                        <a href="https://github.com/antoniorafaeldev/planets-fact-site" target="_blank"
+                            class="repo">Repositório</a>
                     </div>
                 </div>
 
@@ -148,7 +150,8 @@
                     </div>
                     <div class="project-links">
                         <a href="https://antoniorafaeldev.github.io/todo-app" target="_blank" class="site">Site</a>
-                        <a href="https://github.com/antoniorafaeldev/todo-app" target="_blank" class="repo">Repositório</a>
+                        <a href="https://github.com/antoniorafaeldev/todo-app" target="_blank"
+                            class="repo">Repositório</a>
                     </div>
 
                 </div>
@@ -183,23 +186,26 @@
             </div>
             <div class="contact-form">
 
-                <form>
+                <form action="https://api.web3forms.com/submit" method="POST" id="contact-form">
                     <h2 class="contact-title">Entre em <strong>contato</strong></h2>
+                    <input type="hidden" name="access_key" value="dbdc6147-879c-48fd-b0cf-e4e28f0fd538">
                     <div class="form-header-info">
                         <div class="name-container">
                             <label for="name">Nome</label>
-                            <input type="text" name="name" id="name" placeholder="Seu nome">
+                            <input type="text" name="name" required id="name" placeholder="Seu nome">
                         </div>
                         <div class="email-container">
                             <label for="email">Email</label>
-                            <input type="email" name="email" id="email" placeholder="email@example.com">
+                            <input type="email" name="email" required id="email" placeholder="email@example.com">
                         </div>
                     </div>
                     <div class="message-container">
                         <label for="message">Mensagem</label>
-                        <textarea name="message" class="message-textarea" id="message" rows="4" cols="104"
+                        <textarea name="message" class="message-textarea" required id="message" rows="4" cols="104"
                             placeholder="Como posso ajudar?"></textarea>
                     </div>
+                    <div class="h-captcha" data-captcha="true" data-theme="dark"></div>
+
                     <input type="submit" value="Enviar" class="primary submit">
                 </form>
             </div>
@@ -211,6 +217,7 @@
         </footer>
 
         <script type="module" src="./src/javascript/main.js"></script>
+        <script src="https://web3forms.com/client/script.js" async defer></script>
 </body>
 
 </html>

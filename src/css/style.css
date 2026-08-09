@@ -360,7 +360,13 @@ h3 {
   transform: scale(1.015);
 }
 
+.message-container {
+  margin-bottom: 1rem;
+}
+
 .footer {
   padding: 2rem;
   border-top: 1px solid var(--border-color);
 }
+
+

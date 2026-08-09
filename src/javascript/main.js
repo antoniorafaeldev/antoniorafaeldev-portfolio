@@ -1,3 +1,7 @@
 import {toggleMenu} from "./hamburguer-toggle.js"
+import { createContactFormValidation } from "./form-validation.js"
 
-toggleMenu()
+document.addEventListener('DOMContentLoaded', () => {
+    toggleMenu()
+    createContactFormValidation()
+});
