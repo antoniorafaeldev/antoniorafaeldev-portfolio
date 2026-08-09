@@ -193,18 +193,24 @@
                         <div class="name-container">
                             <label for="name">Nome</label>
                             <input type="text" name="name" required id="name" placeholder="Seu nome">
+                            <span class="error-message" id="name-error-message">Preencha esse campo</span>
                         </div>
                         <div class="email-container">
                             <label for="email">Email</label>
                             <input type="email" name="email" required id="email" placeholder="email@example.com">
+                            <span class="error-message" id="email-error-message">Adicione um endereço de email
+                                válido</span>
                         </div>
                     </div>
                     <div class="message-container">
                         <label for="message">Mensagem</label>
                         <textarea name="message" class="message-textarea" required id="message" rows="4" cols="104"
                             placeholder="Como posso ajudar?"></textarea>
+                        <span class="error-message" id="textarea-error-message">Preencha esse campo</span>
                     </div>
+
                     <div class="h-captcha" data-captcha="true" data-theme="dark"></div>
+                    <span class="error-message" id="captcha-error-message">Faça o captcha</span>
 
                     <input type="submit" value="Enviar" class="primary submit">
                 </form>
