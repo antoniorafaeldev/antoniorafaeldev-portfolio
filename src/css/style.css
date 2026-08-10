@@ -295,10 +295,16 @@ h3 {
 .contact {
   padding: 12rem 4rem;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   gap: 6rem;
+}
+
+.networks-container {
+
+  display: flex;
+  gap: 8rem;
 }
 
 .contact h2 {

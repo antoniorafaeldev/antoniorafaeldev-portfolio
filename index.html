@@ -208,61 +208,74 @@
             <a href="./projects/projects.html" class="link secondary all-projects">Ver todos os projetos</a>
         </section>
         <section class="contact" id="contact">
-            <div class="networks">
-                <h2 class="networks-title">Redes</h2>
-                <div class="links">
-                    <a href="mailto:antonio.rafael0415@gmail.com" target="_blank">
-                        <img width="30px" height="30px" src="./src/assets/images/logos/mail.svg" alt="Mail card icon">
+            <h2 class="contact-title">Entre em <strong>contato</strong></h2>
 
-                        Email
+            <div class="networks-container">
+
+                <div class="networks">
+                    <h2 class="networks-title">Redes</h2>
+                    <div class="links">
+                        <a href="https://wa.me/5585982178681?text=Olá, vi seu portifólio e gostaria de entrar em contato"
+                            target="_blank">
+                            <img width="30px" height="30px"
+                                src="./src/assets/images/logos/whatsapp-brands-solid-full.svg" alt="WhatsApp icon">
+                            WhatsApp
+
+                        </a>
+                        <a href="mailto:antonio.rafael0415@gmail.com" target="_blank">
+                            <img width="30px" height="30px" src="./src/assets/images/logos/mail.svg"
+                                alt="Mail card icon">
+
+                            Email
 
 
-                    </a>
-                    <a href="https://www.linkedin.com/in/ant%C3%B4nio-rafael-01131b372/" target="_blank">
-                        <img width="30px" height="30px" src="./src/assets/images/logos/linkedin-original.svg"
-                            alt="Linkedin Logo">
+                        </a>
+                        <a href="https://www.linkedin.com/in/ant%C3%B4nio-rafael-01131b372/" target="_blank">
+                            <img width="30px" height="30px" src="./src/assets/images/logos/linkedin-original.svg"
+                                alt="Linkedin Logo">
 
-                        LinkedIn
+                            LinkedIn
 
 
-                    </a>
-                    <a href="https://github.com/antoniorafaeldev" target="_blank">
-                        <img width="30px" height="30px" src="./src/assets/images/logos/github-original.svg"
-                            alt="GitHub Logo">
-                        GitHub
-                    </a>
+                        </a>
+                        <a href="https://github.com/antoniorafaeldev" target="_blank">
+                            <img width="30px" height="30px" src="./src/assets/images/logos/github-original.svg"
+                                alt="GitHub Logo">
+                            GitHub
+                        </a>
+                    </div>
                 </div>
-            </div>
-            <div class="contact-form">
+                <div class="contact-form">
 
-                <form action="https://api.web3forms.com/submit" method="POST" id="contact-form">
-                    <h2 class="contact-title">Entre em <strong>contato</strong></h2>
-                    <input type="hidden" name="access_key" value="dbdc6147-879c-48fd-b0cf-e4e28f0fd538">
-                    <div class="form-header-info">
-                        <div class="name-container">
-                            <label for="name">Nome</label>
-                            <input type="text" name="name" required id="name" placeholder="Seu nome">
-                            <span class="error-message" id="name-error-message">Preencha esse campo</span>
+                    <form action="https://api.web3forms.com/submit" method="POST" id="contact-form">
+                        <h2 class="contact-title">Contate-me</h2>
+                        <input type="hidden" name="access_key" value="dbdc6147-879c-48fd-b0cf-e4e28f0fd538">
+                        <div class="form-header-info">
+                            <div class="name-container">
+                                <label for="name">Nome</label>
+                                <input type="text" name="name" required id="name" placeholder="Seu nome">
+                                <span class="error-message" id="name-error-message">Preencha esse campo</span>
+                            </div>
+                            <div class="email-container">
+                                <label for="email">Email</label>
+                                <input type="email" name="email" required id="email" placeholder="email@example.com">
+                                <span class="error-message" id="email-error-message">Adicione um endereço de email
+                                    válido</span>
+                            </div>
                         </div>
-                        <div class="email-container">
-                            <label for="email">Email</label>
-                            <input type="email" name="email" required id="email" placeholder="email@example.com">
-                            <span class="error-message" id="email-error-message">Adicione um endereço de email
-                                válido</span>
+                        <div class="message-container">
+                            <label for="message">Mensagem</label>
+                            <textarea name="message" class="message-textarea" required id="message" rows="4" cols="104"
+                                placeholder="Como posso ajudar?"></textarea>
+                            <span class="error-message" id="textarea-error-message">Preencha esse campo</span>
                         </div>
-                    </div>
-                    <div class="message-container">
-                        <label for="message">Mensagem</label>
-                        <textarea name="message" class="message-textarea" required id="message" rows="4" cols="104"
-                            placeholder="Como posso ajudar?"></textarea>
-                        <span class="error-message" id="textarea-error-message">Preencha esse campo</span>
-                    </div>
 
-                    <div class="h-captcha" data-captcha="true" data-theme="dark"></div>
-                    <span class="error-message" data-size="compact" id="captcha-error-message">Faça o captcha</span>
+                        <div class="h-captcha" data-captcha="true" data-theme="dark"></div>
+                        <span class="error-message" data-size="compact" id="captcha-error-message">Faça o captcha</span>
 
-                    <input type="submit" value="Enviar" class="primary submit">
-                </form>
+                        <input type="submit" value="Enviar" class="primary submit">
+                    </form>
+                </div>
             </div>
         </section>
         <footer class="footer">

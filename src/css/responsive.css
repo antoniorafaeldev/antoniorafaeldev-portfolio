@@ -116,8 +116,15 @@
     width: 100%;
   }
 
+  .networks-container {
+    width: min(90%, 768px);
+    gap: 5rem;
+    flex-direction: column;
+  }
+
   .contact-form {
-    width: min(90%, 500px);
+    width: min(99%, 768px);
+
   }
 
   .contact {
