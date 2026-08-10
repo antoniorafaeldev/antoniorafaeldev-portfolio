@@ -72,6 +72,24 @@
     width: min(70%, 500px);
   }
 
+  .skills-matrix {
+    width: min(94%, 500px);
+    margin-bottom: 6rem;
+  }
+
+  .skills-table {
+    min-width: 650px;
+  }
+
+  .skills-table-wrapper {
+    overflow-x: auto;
+  }
+
+  .skills-table th,
+  .skills-table td {
+    padding: 0.7rem 0.75rem;
+  }
+
   .stack {
     padding: 1rem;
   }
@@ -91,12 +109,11 @@
 
   .contact {
     flex-direction: column;
-    padding: 12rem 1rem
+    padding: 12rem 1rem;
   }
 
   .networks {
     width: 100%;
-
   }
 
   .contact-form {
@@ -107,20 +124,19 @@
     padding: 4rem 0.25rem;
   }
 
-  .networks-title, .contact-title {
+  .networks-title,
+  .contact-title {
     text-align: center;
   }
-
-
 
   .form-header-info {
     flex-direction: column;
   }
 
-  .form-header-info div input, .message-textarea {
+  .form-header-info div input,
+  .message-textarea {
     width: 100%;
   }
-
 }
 
 @media (max-width: 576px) {
@@ -178,5 +194,4 @@
   .project-title {
     font-size: 1.25rem;
   }
-
 }
