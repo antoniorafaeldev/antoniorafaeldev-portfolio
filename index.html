@@ -45,11 +45,17 @@
         <section class="about-me" id="about-me">
             <div class="about-me-container">
                 <h2 class="about-me-title">Sobre Mim</h2>
-                <p class="about-me-subtitle">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi officia
-                    rerum
-                    quae. Dolore ullam quasi ducimus, rerum corrupti sed reprehenderit, optio a dicta est, aliquam
-                    facilis
-                    quidem illum assumenda sapiente.</p>
+                <div class="about-me-presentation-container">
+
+                    <p class="about-me-subtitle presentation">Olá! Sou um desenvolvedor web apaixonado por transformar
+                        conceitos em experiências digitais intuitivas. Atualmente focado em React e TypeScript, estou em
+                        constante evolução rumo ao desenvolvimento full-stack.
+                    </p>
+                    <p class="about-me-subtitle"> Estou cursando Técnico em Redes de Computadores, o me dá uma
+                        perspectiva única sobre infraestrutura e conectividade. Estou sempre em busca de novos desafios
+                        para aprender, criar e evoluir.</p>
+                </div>
+
             </div>
 
         </section>
@@ -95,7 +101,7 @@
                 <div class="project">
                     <img src="./src/assets/images/projects-images/planejAI.png" alt="Imagem do projeto PlanejAI">
                     <div class="project-content">
-                        <h3>PlanejAI</h3>
+                        <h3 class="project-title">PlanejAI</h3>
                         <div class="tags">
                             <div class="tag">React</div>
                             <div class="tag">Tailwind</div>
@@ -118,7 +124,7 @@
                         alt="Imagem do projeto Planets Fact Site">
                     <div class="project-content">
 
-                        <h3>Planets Fact Site</h3>
+                        <h3 class="project-title">Planets Fact Site</h3>
                         <div class="tags">
                             <div class="tag">Frontend Mentor</div>
                             <div class="tag">React</div>
@@ -139,7 +145,7 @@
                     <img src="./src/assets/images/projects-images/todo-app.png" alt="Imagem do projeto Todo App">
                     <div class="project-content">
 
-                        <h3>Todo App</h3>
+                        <h3 class="project-title">Todo App</h3>
                         <div class="tags">
                             <div class="tag">Frontend Mentor</div>
                             <div class="tag">HTML e CSS</div>
@@ -210,7 +216,7 @@
                     </div>
 
                     <div class="h-captcha" data-captcha="true" data-theme="dark"></div>
-                    <span class="error-message" id="captcha-error-message">Faça o captcha</span>
+                    <span class="error-message" data-size="compact" id="captcha-error-message">Faça o captcha</span>
 
                     <input type="submit" value="Enviar" class="primary submit">
                 </form>

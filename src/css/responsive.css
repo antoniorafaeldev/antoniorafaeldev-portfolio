@@ -103,12 +103,80 @@
     width: min(90%, 500px);
   }
 
+  .contact {
+    padding: 4rem 0.25rem;
+  }
+
+  .networks-title, .contact-title {
+    text-align: center;
+  }
+
+
+
   .form-header-info {
     flex-direction: column;
   }
 
   .form-header-info div input, .message-textarea {
     width: 100%;
+  }
+
+}
+
+@media (max-width: 576px) {
+  .projects,
+  .featured-projects {
+    width: 100%;
+    margin-right: 0;
+    margin-left: 0;
+    gap: 1.25rem;
+  }
+
+  .project {
+    width: min(100% - 2rem, 25rem);
+    height: auto;
+    min-height: 0;
+  }
+
+  .project img {
+    height: auto;
+    aspect-ratio: 16 / 10;
+    object-fit: cover;
+  }
+
+  .project-content {
+    padding: 0.75rem 1rem 1rem;
+  }
+
+  .project-title,
+  .project-content h2,
+  .project-content h3 {
+    font-size: 1.25rem;
+    line-height: 1.25;
+  }
+
+  .project-content p {
+    line-height: 1.5;
+  }
+
+  .tag {
+    font-size: 0.875rem;
+  }
+
+  .project-links {
+    height: auto;
+    min-height: 4rem;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    padding: 0.75rem 1rem;
+  }
+
+  .project-links a {
+    padding: 0.5rem 0.75rem;
+  }
+
+  .project-title {
+    font-size: 1.25rem;
   }
 
 }

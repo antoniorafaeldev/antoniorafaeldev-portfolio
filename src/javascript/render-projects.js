@@ -25,7 +25,7 @@ const renderProjects = (projects) => {
     projectContainer.innerHTML = `
             <img src="${project.imgUrl}" alt="Imagem do projeto ${project.name}">
             <div class="project-content">
-                <h2>${project.name}</h2>
+                <h2 class="project-title">${project.name}</h2>
                 <div class="tags">
                     ${tags
                     .map(

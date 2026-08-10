@@ -148,8 +148,7 @@ a {
   margin-bottom: 1rem;
 }
 
-.about-me-subtitle {
-  font-size: 1.125rem;
+.about-me-presentation-container {
   background-color: oklch(26.862% 0.00003 271.152 / 0.597);
   padding: 2rem;
   border-radius: 0.5rem;
@@ -157,7 +156,15 @@ a {
   transition: all 0.3s ease-in-out;
 }
 
-.about-me-subtitle:hover,
+.presentation {
+  margin-bottom: 2rem;
+}
+
+.about-me-subtitle {
+  font-size: 1.125rem;
+}
+
+.about-me-presentation-container:hover,
 .stacks-container:hover {
   transform: scale(1.05);
 }
@@ -366,6 +373,10 @@ h3 {
 
 .message-container {
   margin-bottom: 1rem;
+}
+
+.contact-title strong {
+  color: var(--primary-color);
 }
 
 .error-message {
