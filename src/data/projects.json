@@ -66,14 +66,6 @@
   {
     "name": "Contact Form",
     "tags": ["Frontend Mentor", "HTML e CSS", "JavaScript"],
-    "description": "Um formulário de perguntas",
-    "imgUrl": "../src/assets/images/projects-images/contact-form.png",
-    "siteUrl": "https://antoniorafaeldev.github.io/contact-form",
-    "repositoryUrl": "https://github.com/antoniorafaeldev/contact-form"
-  },
-  {
-    "name": "Contact Form",
-    "tags": ["Frontend Mentor", "HTML e CSS", "JavaScript"],
     "description": "Um formulário de perguntas sobre um pedido, com validação de resposta.",
     "imgUrl": "../src/assets/images/projects-images/contact-form.png",
     "siteUrl": "https://antoniorafaeldev.github.io/contact-form",
